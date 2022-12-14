@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91fd3791-25d7-474f-bcfc-103a1be7c053" name="변경" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Java.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Print.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Print.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Println.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Println.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +46,20 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="Println" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Println" />
+      <module name="study01" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="애플리케이션.Println" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="디폴트 작업">
@@ -57,7 +69,7 @@
       <option name="presentableId" value="Default" />
       <updated>1671018321827</updated>
       <workItem from="1671018323658" duration="2799000" />
-      <workItem from="1671023885382" duration="420000" />
+      <workItem from="1671023885382" duration="585000" />
     </task>
     <servers />
   </component>
