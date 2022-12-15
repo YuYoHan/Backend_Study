@@ -168,9 +168,9 @@ Scanner
 
 ---
 # 삼항 연산자
-(조건식) ? (`참일 때 오는 부분`) : (`거짓일 때 오는 부분`)
-조건식 ? 참일때의 값 : 거짓일때의 값
-삼항 연산자는 사용부분 통째로 값
+(조건식) ? (`참일 때 오는 부분`) : (`거짓일 때 오는 부분`) <br/>
+조건식 ? 참일때의 값 : 거짓일때의 값 <br />
+삼항 연산자는 사용부분 통째로 값 <br />
 경우의 수가 두 가지일 때 사용하는것이 좋다.
 ![](https://velog.velcdn.com/images/dbekdms17/post/705b611e-a6d2-4911-9aa7-25a8f774abbc/image.png)
 
@@ -196,8 +196,41 @@ public class OperTest {
 	}
 }
 ```
+# 제어문
+위에서 아래로만 흐르던 코드의 흐름을 제어하기 위해 사용하는 문장
 
+- 조건문(선택제어문) <br />
+  if ~ else if ~ else
+  switch ~ case ~ default
 
+- 반복문(반복제어문) <br />
+  while
+  for
 
+![img.png](img.png)
 
+```java
+import java.util.Scanner;
+
+public class Quiz {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("1. C언어");
+		System.out.println("2. 파이썬");
+		System.out.println("3. 망둥어");
+		System.out.println("4. 자바");
+		System.out.print("다음중 프로그래밍 언어가 아닌것은 ?");
+		int num = sc.nextInt();
+		
+		
+		if(num == 3) {
+			System.out.println("정답입니다!");
+		} else if(num == 1 || num == 2 || num == 4) {
+			System.out.println("오답입니다.");
+		} else {
+			System.out.println("잘못입력했습니다.");
+		}
+```
 
