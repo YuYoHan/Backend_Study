@@ -234,3 +234,95 @@ public class Quiz {
 		}
 ```
 
+![img_1.png](img_1.png)
+
+```java
+	switch(변수){
+	case 값1:
+		변수에 담긴 값이 값1 일 때 실행
+		break;
+	case 값2:
+		변수에 담긴 값이 값2 일 때 실행
+		break;
+	...
+	default:
+		변수에 담긴 값이 위의 값들이 아닐 때 실행
+	}
+```
+
+![img_2.png](img_2.png)
+![img_3.png](img_3.png)
+![img_4.png](img_4.png)
+![img_5.png](img_5.png)
+<br />
+
+# for문
+
+반복문 기본원리
+1. for 반복문을 만나면 초기식으로 초기값을 설정한다.
+2. 조건식을 확인하고 참이면 {} 중괄호 안의 내용을 수행
+3. } 닫는 중괄호를 만나면 증감식으로 이동한다.
+4. 조건식을 다시 확인하고 참이면 반복, 거짓이면 for문을 종료한다.
+
+```java
+import java.util.Scanner;
+
+public class Exam02 {
+
+	public static void main(String[] args) {
+		int sum = 0;
+		for(int i = 0; i < 10; i ++) {
+			sum = sum + i;
+			System.out.println("중간결과 :" + sum);
+		}
+		System.out.println("최종결과 :" + sum);
+       // 출력 : 55
+       } 
+     }
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
