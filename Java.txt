@@ -144,6 +144,24 @@ Scanner
         - 단점이 있는데 엔터를 가져오기 때문에 공백이 출력이 된다.
             → 앞에 nextLine이 아닌 다른 입력이 있다면 의미없는 nextLine()을 하나 미리 사용해야 한다.
 
+형변환
+    강제적 형변환
+        (자료형): 형변환 연산자
+        (자료형)값
+
+        (double)10 → 10.0
+        (float)10 → 10.0f
+        (char)65 → 'A'
+        (int)'A' → 65
+
+        'A'에서 65로 바뀌는것은 아스키코드
+
+        문자를 정수 : Integer.parseInt("10");
+        문자를 실수 : Double.parseDouble("10.1");
+        정수를 문자 : Integer.toString(4);
+        실수를 문자 : Double.toString(10.1);
+
+
 
 
 
