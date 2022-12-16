@@ -281,11 +281,74 @@ public class Exam02 {
      }
 ```
 
+---
 
+# 배열
+같은 자료형의 여러 변수를 나열해 놓은 것
 
+1. 여러 값들을 하나의 이름과 인덱스로 관리하기 위해서
+2. 규칙성이 없던 값들에 규칙성을 부여하기 위해서
 
+## 배열의 선언
+```	
+    자료형[] 배열명 = {값1, 값2, ....};
+	자료형[] 배열명 = new 자료형[칸수];
+```
+여기서, new 라는 키워드는 "메모리에 새로운 저장공간을 만들어줘" 라는 지시어 이다. 정확히는 "`힙 메모리`에 새로운 저장공간을 int 타입으로 길이만큼 만들어 주세요" 라는 의미.
 
+## 배열의 인덱스 번호
+실제 값들이 저장되어 있는 공간이 할당되면 이름은 존재하지 않고 `주소값`만 존재한다. <br/>
+따라서 시작 주소값을 배열명 변수가 갖고 있고 주소연산을 통해 다음 주소값으로 이동한다. <br/>
+시작 주소에서 이동만 횟수(연산된 정수가)가 인덱스 번호가 되고 첫번째 방은 배열명이 기억하고 있는 주소에서 0번 옮겨야 하므로 인덱스 번호는 `0번`부터 시작된다.
 
+![](https://velog.velcdn.com/images/dbekdms17/post/d6d8cbec-9d84-4c0d-9d5b-ac24762ff859/image.png)
+
+## 배열의 사용
+```	
+    data = 10;
+	println(data);
+
+	배열명[idx] = 값;		// 공간
+	println(배열명[idx]);		// 값
+```
+
+배열의 길이
+- 배열명.length;
+```java
+	mport java.util.Arrays;
+
+public class ArTest {
+
+	public static void main(String[] args) {
+		
+		int[] array = {5, 10, 100, 99, 17134};
+		
+//		실제 값들이 저장되는 공간은 현재 비어있는 상태(0으로 초기화 되어있는 상태)
+		int[] array2 = new int[5];
+		// 첫번째에 1을 대입
+		array2[0] = 1;
+		
+		
+		System.out.println(array); 							// 주소값이 출력됨. 출력 :  [I@7dc5e7b4
+		System.out.println(array[0]);
+		System.out.println(array[1]);
+		System.out.println(array[2]);
+		System.out.println(array[3]);
+		System.out.println(array[4]);
+		System.out.println(Arrays.toString(array));			// array이에 담긴 값 출력 : [5, 10, 100, 99, 17134]
+		
+		
+		for(int i = 0; i < 5; i++) {
+			System.out.println(array[i]);
+		}
+		
+		for (int i = 0; i < array2.length; i++) {
+			System.out.println(array2[i]);
+		}	
+	}
+
+}
+```
 
 
 
