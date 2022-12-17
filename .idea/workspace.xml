@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="91fd3791-25d7-474f-bcfc-103a1be7c053" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +49,14 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
-  <component name="RunManager" selected="애플리케이션.Scanner_test">
+  <component name="RunManager" selected="애플리케이션.Array3">
+    <configuration name="Array3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array3" />
+      <module name="study01" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Println" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Println" />
       <module name="study01" />
@@ -64,6 +73,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.Array3" />
         <item itemvalue="애플리케이션.Scanner_test" />
         <item itemvalue="애플리케이션.Println" />
       </list>
@@ -81,7 +91,8 @@
       <workItem from="1671023885382" duration="2824000" />
       <workItem from="1671068448119" duration="6087000" />
       <workItem from="1671149430730" duration="504000" />
-      <workItem from="1671153674710" duration="2205000" />
+      <workItem from="1671153674710" duration="2400000" />
+      <workItem from="1671236177559" duration="884000" />
     </task>
     <servers />
   </component>
