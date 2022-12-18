@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="91fd3791-25d7-474f-bcfc-103a1be7c053" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +39,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/study_/Spring/spring/book_study",
+    "last_opened_file_path": "C:/study_/1900_Java/study01",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -92,6 +91,7 @@
       <workItem from="1671149430730" duration="504000" />
       <workItem from="1671153674710" duration="2400000" />
       <workItem from="1671236177559" duration="4290000" />
+      <workItem from="1671336251131" duration="1828000" />
     </task>
     <servers />
   </component>
